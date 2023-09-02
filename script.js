@@ -68,6 +68,7 @@ const loadBtn = async (id) => {
   
     function formatTime(seconds) {
       if (!seconds) {
+        
         return ""; // No posted_date, return an empty string
       }
   
